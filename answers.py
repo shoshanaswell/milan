@@ -6,7 +6,7 @@ After completing an example, you must comment out previous examples by using # o
 
 """EXAMPLE 1: CHECK CHECK. This example prints "THIS IS MY SPACESUIT. to the serial. Use the two lines of code below"""
 from adafruit_circuitplayground import cp
-#print("THIS IS MY SPACESUIT.") #you can change the text to write whatever you want
+print("THIS IS MY SPACESUIT.") #you can change the text to write whatever you want
 
 
 """EXAMPLE 2: RAINBOW MAGIC. This example lights up the first NeoPixel. The rest of the example will have you light up the entire board!"""
@@ -43,7 +43,7 @@ while True:
         #to do: fill all pixels to one color
         cp.pixels.fill(255)
     # to do: create an if statement if you touch the A2 port
-    if cp.touch_A2:
+    if cp.touch_A2: 
         #to do: fill all pixels to one color
         cp.pixels.fill(40)
 
@@ -83,7 +83,7 @@ This example should make the lights go on in a sequence. If you start with the f
 from adafruit_circuitplayground import cp
 import time
 
-while True:
+while True: 
     cp.pixels[0] = (200,0,0)
     time.sleep(2)
     cp.pixels[0] = (0,0,0)
@@ -98,4 +98,3 @@ while True:
 # Instagram/Facebook: @thisismyspacesuit
 # Email: thisismyspacesuit@gmail.com
 # Website: thisismyspacesuit.com
-# Write your code here :-)
